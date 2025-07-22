@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Abu Bakar Siddik**
-- GitHub: [@abu-bakar-siddik](https://github.com/abu-bakar-siddik)
+- GitHub: [@siddik-official](https://github.com/siddik-official/)
 - Project: SymptomSeek IoT Fall Detection System
 - University: UIU (United International University)
 
@@ -291,9 +291,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For technical support or questions:
-- 📧 Email: abu.bakar.siddik@example.com
+- 📧 Email: official.siddik@gmail.com
 - 💬 Telegram: @falldetectorSymptoseek_bot
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/symptoseek_iot/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/siddik-official/symptoseek-iot-device/issues)
 
 ---
 
