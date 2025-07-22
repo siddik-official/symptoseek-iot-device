@@ -1,0 +1,385 @@
+# SymptomSeek IoT - GitIgnore Configuration
+
+#######################
+# PlatformIO specific #
+#######################
+
+# PlatformIO build directory
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# PlatformIO cache
+.pio_cache/
+
+# PlatformIO workspace settings
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+
+# PlatformIO library dependencies
+lib_deps/
+
+# PlatformIO monitor logs
+monitor.log
+
+# PlatformIO upload logs
+upload.log
+
+#########################
+# Python Virtual Env   #
+#########################
+
+# Virtual environment for PlatformIO
+pio_env/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#########################
+# IDE & Editor Files   #
+#########################
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ IDEA, CLion, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+#########################
+# Operating System     #
+#########################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+#########################
+# Compilation & Build  #
+#########################
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+#########################
+# Project Specific     #
+#########################
+
+# Credentials (NEVER commit these!)
+credentials.h
+secrets.h
+config_local.h
+wifi_credentials.h
+telegram_tokens.h
+
+# Firmware binaries
+firmware.bin
+bootloader.bin
+partitions.bin
+
+# Log files
+*.log
+logs/
+debug.txt
+serial_output.txt
+
+# Backup files
+*.backup
+*.bak
+backup_*
+
+# Test data
+test_data/
+sensor_logs/
+calibration_data/
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Circuit design files (if using KiCad, Eagle, etc.)
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.kicad_pro-bak
+fp-info-cache
+*-rescue.lib
+*-rescue.dcm
+*-cache.lib
+*-cache.dcm
+
+# Eagle PCB design files
+*.b#*
+*.s#*
+*.l#*
+
+#########################
+# Temporary Files      #
+#########################
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Lock files
+*.lock
+.lock
+
+# Node.js (if using any web interfaces)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#########################
+# Security & Sensitive #
+#########################
+
+# API Keys and tokens
+*.key
+*.pem
+*.p12
+*.crt
+api_keys.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration with sensitive data
+local_config.ini
+production_config.ini
+
+#########################
+# Archive Files        #
+#########################
+
+# Compressed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#########################
+# Custom Project Files #
+#########################
+
+# Sensor calibration data
+calibration/
+sensor_offsets.h
+
+# Experimental code
+experimental/
+scratch/
+test_*
+
+# Old versions
+old/
+archived/
+deprecated/
+
+# Personal notes
+notes.txt
+todo.txt
+README_personal.md
+
+# Hardware documentation
+datasheets/
+schematics/
+pcb_files/
+
+#########################
+# Git specific         #
+#########################
+
+# Git hooks
+.git/hooks/
+
+# Git patch files
+*.patch
+*.diff
+
+#########################
+# Misc                 #
+#########################
+
+# Thumbnails
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ico
+
+# Audio/Video files
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+
+# Large data files
+*.csv
+*.json
+*.xml
+data/
+
+# Keep structure but ignore content of these directories
+/lib/.keep
+/test/.keep
+/data/.keep
+/logs/.keep
+
+#######################
+# END OF GITIGNORE   #
+#######################
